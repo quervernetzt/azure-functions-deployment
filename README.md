@@ -17,3 +17,5 @@
 # Resources
 
 [Continuous delivery by using Azure DevOps](https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-azure-devops?tabs=python)
+
+[Azure Functions Python developer guide](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-python)

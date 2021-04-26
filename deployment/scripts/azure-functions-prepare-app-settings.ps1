@@ -1,14 +1,14 @@
 ﻿<#
     .SYNOPSIS
-        Script to prepare the AppSettings for the Azure Function going to be deployed
-        It includes adding Key Vault secret references as App Settings.
+        Script to prepare the AppSettings values for the Azure Function going to be deployed.
+        The value are being made available as ADO pipeline variables.
 
     .PARAMETER KeyVaultName
-        The name of the KeyVault to retrieve secret information from
+        The name of the KeyVault to retrieve secret information from.
         Example: "TestName"
 
     .PARAMETER SecretNames
-        Comma separated list of secret names stored in KeyVault
+        Comma separated list of secret names stored in KeyVault.
         Example: "TestName"
 #>
 
